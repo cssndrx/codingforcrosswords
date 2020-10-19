@@ -12,6 +12,10 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
+
+		<!-- This line makes links default to opening in a new tab. -->
+		<base target="_blank">
+
 		<link rel="icon" type="image/x-icon" href="https://codingforcrosswords.com/favicon.ico">
 
 		<!-- Twitter Card data -->
@@ -107,18 +111,63 @@
 									<h2>The Basics Modules</h2>
 								</header>
 
-								<div style="display:grid; grid-template-columns: 200px 1fr">
-									<strong>Module 1</strong>
-									<div><a>Name and link to module</a></div>
-									<strong>Module 2</strong>
-									<div><a>Name and link to module</a></div>
-									<strong>Module 3</strong>
-									<div><a>Name and link to module</a></div>
-									<strong>Module 4</strong>
-									<div><a>Name and link to module</a></div>
-									<strong>Module 5</strong>
-									<div><a>Name and link to module</a></div>
-								</div>
+<div class="table-grid">
+	<strong>Module 0</strong>
+	<div><strong><a>Course Overview</a></strong>
+		<a>Goal-based instruction 2:20</a>
+		<a>Module format 3:36</a>
+		<a>Crossword puzzles 5:03</a>
+		<a>Choice of programming language 6:26</a>
+	</div>
+
+	<strong>Module 1</strong>
+	<div><strong><a>Crossword Puzzles</a></strong></div>
+
+	<strong>Module 2</strong>
+	<div><strong>Set up C++ for your system</strong><br>
+		<a>Windows</a>
+		<a>Linux</a>
+		<a>Mac</a>
+		<a>Browser</a>
+	</div>
+	<strong>Module 3</strong>
+	<div>
+		<strong><a>Add 1+1!</a></strong>
+		<a>operator+ 3:00</a>
+		<a>main() function 3:22</a>
+		<a>cout 8:53</a>
+		<a>#include <iostream> 9:20</a>
+		<a>// comments 14:43</a>
+	</div>
+	<strong>Module 4</strong>
+	<div>
+		<strong><a>Load a Grid (Part 1)</a></strong>
+		<a>int variable 1:42</a>
+		<a>string variable 5:46</a>
+		<a>STL string 7:22</a>
+		<a>string::size() 8:32</a>
+		<a>string::clear() 11:39</a>
+		<a>string::empty() 17:49</a>
+		<a>string::append() 19:47</a>
+		<a>string::operator+= 21:19</a>
+		<a>string::find() 22:15</a>
+		<a>string::operator[] 24:24</a>
+	</div>
+	<strong>Module 5</strong>
+	<div>
+		<strong><a>Load a Grid (Part 2)</a></strong>
+		<a>STL vector 5:21</a>
+		<a>vector::push_back() 7:16</a>
+		<a>vector::size() 10:20</a>
+		<a>vector::front() 11:13</a>
+		<a>vector::operator[] 12:38</a>
+		<a>for loop (over set) 13:06</a>
+		<a>for loop (counting) 14:48</a>
+		<a>operator++ 15:55</a>
+		<a>assert() 19:09</a>
+		<a>operator== 19:21</a>
+	</div>
+</div>
 							</section>
 
 						<!-- Advanced Section -->

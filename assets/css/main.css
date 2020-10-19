@@ -72,6 +72,23 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+/* Glen custom */
+.table-grid{
+	display:grid; grid-template-columns: 200px 1fr; text-align: left;
+	grid-row-gap: 16px;
+}
+
+.table-grid a{
+	display: block;
+}
+
+
+a{
+	cursor: pointer;
+}
+
+
 /* Basic */
 
 	@-ms-viewport {
